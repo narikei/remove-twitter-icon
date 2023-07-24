@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "remove-twitter-icon",
+  "version": "1.0",
+  "description": "I loved \"Larry\".",
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/*"
+      ],
+      "js": [
+        "script.js"
+      ]
+    }
+  ]
+}
